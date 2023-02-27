@@ -23,8 +23,6 @@ public class rain_water{
             }
             y[i]=max;
             max=-700;
-
-
         }
         for(i=0;i<l;i++){
             System.out.print(" "+x[i]);
@@ -37,15 +35,11 @@ public class rain_water{
         for(i=0;i<l;i++){
             if(x[i]>y[i]){
                 sum=sum+(y[i]-a[i]);
-
             }
             else{
                 sum=sum+(x[i]-a[i]);
-
             }
         }
         System.out.println(sum);
-
     }
-    
 }
